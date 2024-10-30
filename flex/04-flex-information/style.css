@@ -12,11 +12,17 @@ img {
   font-size: 36px;
   font-weight: 900;
   justify-content: center;
+  margin: 32px;
 }
 
 .info-section {
   display: flex;
   justify-content: center;
+  gap: 52px;
+}
+
+.info-item {
+  width: 200px;
 }
 
 /* do not edit this footer */
