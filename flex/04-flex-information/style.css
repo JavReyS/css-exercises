@@ -8,8 +8,15 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
