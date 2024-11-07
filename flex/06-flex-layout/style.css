@@ -40,7 +40,11 @@ input {
 }
 
 .content{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 ul{
