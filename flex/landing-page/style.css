@@ -24,6 +24,9 @@ button {
     font-size: 18px;
     font-weight: bold;
     color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    align-self: flex-start;
 }
 
 .first-section,
@@ -61,17 +64,14 @@ button {
 
 .hero-content {
     display: flex;
-    align-items: stretch;
-    padding-top: 130px;
-    padding-bottom: 130px;
-    gap: 60px;
-}
-
-.hero-content div {
-    flex: 1;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 35px;
 }
 
 .left-hero {
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -88,9 +88,20 @@ button {
     font-size: 18px;
 }
 
+.right-hero {
+    width: 55%;
+}
+
 .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: gray;
     color: white;
     font-size: 18px;
     height: 100%;
+}
+
+.hero-button {
+    border: 0;
 }
