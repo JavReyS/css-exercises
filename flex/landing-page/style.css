@@ -111,6 +111,11 @@ button {
     padding-bottom: 40px;
 }
 
+.middle-container {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
 .information-header {
     display: flex;
     justify-content: center;
@@ -121,9 +126,8 @@ button {
 
 .cards-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 60px;
     color: #1F2937;
     font-size: 18px;
 }
@@ -142,4 +146,23 @@ button {
 
 .card-text {
     text-align: center;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
