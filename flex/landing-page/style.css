@@ -97,7 +97,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: gray;
-    color: white;
+    color: #F9FAF8;
     font-size: 18px;
     height: 100%;
 }
@@ -178,7 +178,7 @@ button {
     background-color: #3882F6;
     border-radius: 10px;
     padding: 40px 80px;
-    color: white;
+    color: #F9FAF8;
 }
 
 .call-to-action-main-text {
@@ -191,6 +191,14 @@ button {
 }
 
 .call-to-action-button {
-    border-color: white;
+    border-color: #F9FAF8;
     border-style: solid;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
 }
