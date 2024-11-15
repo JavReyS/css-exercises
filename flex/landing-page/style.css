@@ -107,8 +107,8 @@ button {
 }
 
 .second-section, .cards-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .middle-container {
@@ -165,4 +165,32 @@ button {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+.fourth-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 80px;
+    color: white;
+}
+
+.call-to-action-main-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action-secondary-text {
+    font-size: 18px;
+}
+
+.call-to-action-button {
+    border-color: white;
+    border-style: solid;
 }
